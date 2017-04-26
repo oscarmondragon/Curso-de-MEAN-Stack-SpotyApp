@@ -1,0 +1,873 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"userStored"
+			],
+			[
+				"n",
+				"name"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"b",
+				"bcrypt"
+			],
+			[
+				"User",
+				"UserSchema"
+			],
+			[
+				"s",
+				"Schema"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"ar",
+				"article"
+			],
+			[
+				"contacto",
+				"contacto"
+			],
+			[
+				"Team",
+				"TeamController"
+			],
+			[
+				"db",
+				"dbOptions"
+			],
+			[
+				"er",
+				"error404"
+			],
+			[
+				"get",
+				"getConnection"
+			],
+			[
+				"public",
+				"publicDir"
+			],
+			[
+				"chat",
+				"chatForm"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"req",
+				"requirements"
+			],
+			[
+				"other",
+				"otherFn"
+			],
+			[
+				"rating",
+				"ratings"
+			],
+			[
+				"up",
+				"up"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"fa",
+				"fa-volume-off"
+			],
+			[
+				"im",
+				"imagenJs"
+			],
+			[
+				"i",
+				"id\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"for",
+				"formidable"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"m",
+				"methodOverride"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"mat",
+				"margin-right"
+			],
+			[
+				"se",
+				"session"
+			],
+			[
+				"imagen",
+				"imagen"
+			],
+			[
+				"image",
+				"imagenes"
+			],
+			[
+				"a",
+				"audio\tTag"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"U",
+				"url()"
+			],
+			[
+				"borde",
+				"border-color"
+			],
+			[
+				"t",
+				"text-decoration"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"clo",
+				"color"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"u",
+				"username"
+			],
+			[
+				"pa",
+				"password_validation"
+			],
+			[
+				"e",
+				"email_match"
+			],
+			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"pas",
+				"password_confirmation"
+			],
+			[
+				"bo",
+				"body"
+			],
+			[
+				"EM",
+				"email"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"hi",
+				"hiddenField"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"TI",
+				"title"
+			],
+			[
+				"re",
+				"redirect"
+			],
+			[
+				"usu",
+				"usuarioColeccion"
+			],
+			[
+				"mo",
+				"mongoose"
+			],
+			[
+				"pr",
+				"progress\tTag"
+			],
+			[
+				"o",
+				"output\tTag"
+			],
+			[
+				"l",
+				"low\tAttr"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fig",
+				"figcaption\tTag"
+			],
+			[
+				"fi",
+				"figure\tTag"
+			],
+			[
+				"de",
+				"details\tTag"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"elements",
+				"elements"
+			],
+			[
+				"f",
+				"full_name"
+			],
+			[
+				"fun",
+				"funcion_alerta"
+			],
+			[
+				"spe",
+				"speed"
+			],
+			[
+				"sp",
+				"speed_y"
+			],
+			[
+				"pl",
+				"playing"
+			],
+			[
+				"k",
+				"kind"
+			],
+			[
+				"para",
+				"parametros"
+			],
+			[
+				"param",
+				"parametros"
+			],
+			[
+				"ur",
+				"url_data"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"r",
+				"radius"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"board",
+				"board"
+			],
+			[
+				"html",
+				"html_string"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"Board",
+				"BoardView"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"ge",
+				"getTutor"
+			],
+			[
+				"NO",
+				"nombre_completo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "controllers/user-controller.js",
+			"settings":
+			{
+				"buffer_size": 1770,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "models/user-model.js",
+			"settings":
+			{
+				"buffer_size": 292,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/user-route.js",
+			"settings":
+			{
+				"buffer_size": 289,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"ini",
+				"Git: Init"
+			],
+			[
+				"git ",
+				"Git: Status"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"lo",
+				"Git: Log"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"sta",
+				"Git: Status"
+			],
+			[
+				"add",
+				"Git: Quick Add"
+			],
+			[
+				"Git",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy",
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy/controllers",
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy/models",
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy/routes"
+	],
+	"file_history":
+	[
+		"/C/Cursos-desarrollo-web/AngularJS-platzi/02Parametros por defecto.html",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/dfvfd.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/template strings",
+		"/C/Cursos-desarrollo-web/nodeCurso/prueb.js",
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy/routes/user-route.js",
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy/controllers/user-controller.js",
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy/app.js",
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy/models/song-model.js",
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy/models/album-model.js",
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy/index.js",
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy/models/user-model.js",
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy/models/artist.js",
+		"/C/Cursos-desarrollo-web/nodeCurso/EDigital/09ApiContactosMongoDB/models/team-schema.js",
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy/models/dd.js",
+		"/C/Cursos-desarrollo-web/Curso-MEAN-Stack-Udemy/package.json",
+		"/C/Cursos-desarrollo-web/nodeCurso/EDigital/09ApiContactosMongoDB/models/model.js",
+		"/C/Cursos-desarrollo-web/nodeCurso/EDigital/09ApiContactosMongoDB/server.js",
+		"/C/Cursos-desarrollo-web/nodeCurso/EDigital/09ApiContactosMongoDB/models/db-conf.json",
+		"/C/cygwin64/home/OscarMon/.bash_profile",
+		"/C/Users/OscarMon/.gitconfig",
+		"/C/Users/OscarMon/.bash_history",
+		"/C/Cursos desarrollo web/nodeCurso/EDigital/09ApiContactosMongoDB/app.js",
+		"/C/Cursos desarrollo web/nodeCurso/EDigital/09ApiContactosMongoDB/views/index.pug",
+		"/C/Cursos desarrollo web/nodeCurso/EDigital/09ApiContactosMongoDB/package.json",
+		"/C/Cursos desarrollo web/nodeCurso/EDigital/09ApiContactosMongoDB/server.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/controllers/user-controller.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/models/user-model.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/controllers/contacto-controller.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/models/contacto-model.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/server.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/models/contacto-schema.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/app.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/routes/user-router.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/routes/contacto-router.js",
+		"/C/Cursos desarrollo web/gemelaProyecto/res/js/login.js",
+		"/C/Cursos desarrollo web/MEAN STACK COURSE-LYNDA/tareas/views/index.jade",
+		"/C/Cursos desarrollo web/MEAN STACK COURSE-LYNDA/tareas/routes/users.js",
+		"/C/Cursos desarrollo web/MEAN STACK COURSE-LYNDA/package.json",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/package.json",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/models/team-schema.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/controllers/team-controller.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/routes/team-router.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/models/team-model.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/controllers/tean-controller.js",
+		"/C/nodeCurso/EDigital/ednode2016-master (1)/ednode2016-master/10ApiRESTMongoDBAuth/controllers/auth-controller.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/models/user-schema.js",
+		"/C/nodeCurso/EDigital/ednode2016-master (1)/ednode2016-master/10ApiRESTMongoDBAuth/models/team-model.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/models/user-model",
+		"/C/nodeCurso/EDigital/ednode2016-master (1)/ednode2016-master/10ApiRESTMongoDBAuth/routes/team-router.js",
+		"/C/nodeCurso/EDigital/ednode2016-master (1)/ednode2016-master/10ApiRESTMongoDBAuth/routes/auth-router.js",
+		"/C/nodeCurso/EDigital/ednode2016-master (1)/ednode2016-master/10ApiRESTMongoDBAuth/app.js",
+		"/C/nodeCurso/NPM_EXPRESS/app.js",
+		"/C/nodeCurso/EscuelaDigital/node-js-getting-started/index.js",
+		"/C/nodeCurso/EscuelaDigital/10 Aplicacion de contactos en MEAN Stack/src/main.ts",
+		"/C/nodeCurso/NPM_EXPRESS/package.json",
+		"/C/nodeCurso/NPM_EXPRESS/Procfile",
+		"/C/Users/OscarMon/node-js-getting-started/index.js",
+		"/C/Users/OscarMon/node-js-getting-started/package.json",
+		"/C/nodeCurso/prueba/index.js",
+		"/C/nodeCurso/EscuelaDigital/05SocketIO/01Chat/gitignore.git",
+		"/C/Users/OscarMon/Desktop/d320f810a_05.kdz",
+		"/C/nodeCurso/EscuelaDigital/ednode2016-master (1)/ednode2016-master/10ApiRESTMongoDBAuth/controllers/auth-controller.js",
+		"/C/nodeCurso/EscuelaDigital/ednode2016-master (1)/ednode2016-master/10ApiRESTMongoDBAuth/models/auth-model.js",
+		"/C/nodeCurso/EscuelaDigital/ednode2016-master (1)/ednode2016-master/10ApiRESTMongoDBAuth/routes/auth-router.js",
+		"/C/nodeCurso/EscuelaDigital/ednode2016-master (1)/ednode2016-master/10ApiRESTMongoDBAuth/models/auth-schema.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/views/login-form.pug",
+		"/C/nodeCurso/EscuelaDigital/ednode2016-master (1)/ednode2016-master/10ApiRESTMongoDBAuth/views/login-form.pug",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/views/index.pug",
+		"/C/nodeCurso/EscuelaDigital/ednode2016-master (1)/ednode2016-master/10ApiRESTMongoDBAuth/views/index.pug",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/views/add.pug",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/middlewares/errors.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/views/signin-form.pug",
+		"/C/nodeCurso/proyecto/models/user.js",
+		"/C/Users/OscarMon/Documents/GitHub/App de contactos mongoDB y Node.js/public/estilos.css",
+		"/C/nodeCurso/EscuelaDigital/09ApiContactosMongoDB/routes/team-router.js",
+		"/C/nodeCurso/EscuelaDigital/09ApiContactosMongoDB/views/add.pug",
+		"/C/nodeCurso/EscuelaDigital/09ApiContactosMongoDB/views/edit.pug",
+		"/C/nodeCurso/EscuelaDigital/09ApiContactosMongoDB/views/index.pug",
+		"/C/nodeCurso/EscuelaDigital/09ApiContactosMongoDB/models/team-schema.js",
+		"/C/nodeCurso/EscuelaDigital/09ApiContactosMongoDB/views/layout.pug",
+		"/C/nodeCurso/EscuelaDigital/09ApiContactosMongoDB/models/db-conf.json",
+		"/C/nodeCurso/EscuelaDigital/ednode2016-master (1)/ednode2016-master/09ApiRESTMongoDB/routes/team-router.js",
+		"/C/nodeCurso/EscuelaDigital/ednode2016-master (1)/ednode2016-master/09ApiRESTMongoDB/controllers/team-controller.js",
+		"/C/nodeCurso/EscuelaDigital/ednode2016-master (1)/ednode2016-master/09ApiRESTMongoDB/models/team-model.js",
+		"/C/nodeCurso/EscuelaDigital/09ApiContactosMongoDB/public/estilos.css",
+		"/C/nodeCurso/EscuelaDigital/09ApiContactosMongoDB/app.js",
+		"/C/nodeCurso/EscuelaDigital/09ApiContactosMongoDB/package.json",
+		"/C/nodeCurso/EscuelaDigital/09ApiContactosMongoDB/server.js",
+		"/C/nodeCurso/EscuelaDigital/09ApiRESTMongoDB/routes/team-router.js",
+		"/C/nodeCurso/EscuelaDigital/09ApiRESTMongoDB/models/team-model.js",
+		"/C/nodeCurso/EscuelaDigital/09ApiRESTMongoDB/controllers/team-controller.js",
+		"/C/nodeCurso/EscuelaDigital/09ApiRESTMongoDB/app.js",
+		"/C/nodeCurso/proyecto/rutas_app.js",
+		"/C/nodeCurso/EscuelaDigital/09ApiRESTMongoDB/models/team-schema.js",
+		"/C/nodeCurso/EscuelaDigital/09ApiRESTMongoDB/models/db-conf.json",
+		"/C/nodeCurso/EscuelaDigital/09ApiRESTMongoDB/models/model.js",
+		"/C/nodeCurso/EscuelaDigital/05SocketIO/01Chat/app.js",
+		"/C/nodeCurso/EscuelaDigital/05SocketIO/01Chat/public/chat.js",
+		"/C/nodeCurso/EscuelaDigital/ednode2016-master (1)/ednode2016-master/09ApiRESTMongoDB/models/team-schema.js",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/controllers/team-controller.js",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/views/add.pug",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/views/edit.pug",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/package.json",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/views/index.pug",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/models/schema.sql",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/models/model.js",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/models/db-conf.json",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/models/team-model.js",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/routes/team-router.js",
+		"/C/nodeCurso/EscuelaDigital/ednode2016-master (1)/ednode2016-master/08ApiRESTMySQL/routes/team-router.js",
+		"/C/nodeCurso/EscuelaDigital/ednode2016-master (1)/ednode2016-master/08ApiRESTMySQL/models/team-model.js",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/views/error.pug",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/app.js",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/server.js",
+		"/C/nodeCurso/EscuelaDigital/08ApiRESTMySQL/controllers/team-controller",
+		"/C/nodeCurso/EscuelaDigital/07ApiCRUDMysql/routes/index.js",
+		"/C/nodeCurso/EscuelaDigital/06ApiCRUDMySQL/app.js",
+		"/C/nodeCurso/EscuelaDigital/ednode2016-master (1)/ednode2016-master/07ApiCRUDMySQL/routes/index.js",
+		"/C/nodeCurso/EscuelaDigital/07ApiCRUDMysql/app.js",
+		"/C/nodeCurso/EscuelaDigital/07ApiCRUDMysql/server.js",
+		"/C/nodeCurso/EscuelaDigital/07ApiCRUDMysql/models/model.js",
+		"/C/nodeCurso/EscuelaDigital/07ApiCRUDMysql/package.json",
+		"/C/nodeCurso/EscuelaDigital/07ApiCRUDMysql/schema.sql",
+		"/C/mongoDbMEANCurso/chapter-2/README.md",
+		"/C/mongoDbMEANCurso/chapter-2/student.js",
+		"/C/mongoDbMEANCurso/chapter-2/course.js",
+		"/C/nodeCurso/EscuelaDigital/02NPM/.gitignore",
+		"/C/nodeCurso/EscuelaDigital/06ApiCRUDMySQL/views/index.pug"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\";\n",
+			"'",
+			",\n",
+			";",
+			"error",
+			"html",
+			"extends",
+			">",
+			"login",
+			"charset=\"utf-8\"",
+			";\n",
+			"();\n",
+			"}\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "controllers/user-controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "models/user-model.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes/user-route.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 154.0
+	},
+	"output.git-init":
+	{
+		"height": 75.0
+	},
+	"output.git-push":
+	{
+		"height": 154.0
+	},
+	"pinned_build_system": "Packages/User/node.sublime-build",
+	"project": "proyecto-curso-mean2.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 163.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
