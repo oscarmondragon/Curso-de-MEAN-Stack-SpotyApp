@@ -5,4 +5,5 @@ var api = express.Router();
 api.get('/probando-controlador', UserController.pruebas);
 module.exports = api;
 api.post('/register', UserController.saveUser);
+api.post('/login', UserController.loginUser);
 module.exports = api;
