@@ -2,7 +2,8 @@
 var express = require('express');
 var UserController = require('../controllers/user-controller');
 var api = express.Router();
-api.get('/probando-controlador', UserController.pruebas);
+var md_auth= require('../middlewares/authentication');
+api.get('/probando-controlador',md_auth.ensureAuth, UserController.pruebas);
 module.exports = api;
 api.post('/register', UserController.saveUser);
 api.post('/login', UserController.loginUser);

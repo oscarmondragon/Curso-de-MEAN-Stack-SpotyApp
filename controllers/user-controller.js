@@ -1,7 +1,7 @@
 'use strict';
 var bcrypt = require('bcrypt-nodejs');
 var User = require('../models/user-model');
-
+var jwt = require('../services/jwt');
 function pruebas(req, res) {
     res.status(200).send({
         message: 'Probando una accion del controlador de usuarios'
@@ -72,7 +72,9 @@ function loginUser(req,res){
             //devolver los datos del usuario logueado
             if(params.gethash){
               //devolver un token de jwt
-
+                res.status(200).send({
+                    token: jwt.createToken({user})
+                })
             } else {
             res.status(200).send({user: user});
             }
@@ -84,8 +86,6 @@ function loginUser(req,res){
 
     }
   });
-
-
 }
 
 module.exports = {
