@@ -1,4 +1,6 @@
 'use strict';
+var fs = require('fs');
+var path = require('path');
 var bcrypt = require('bcrypt-nodejs');
 var User = require('../models/user-model');
 var jwt = require('../services/jwt');
@@ -163,10 +165,25 @@ function updateUser(req, res) {
         }
 
     }
+function getImageFile(req,res){
+    var image_file  = req.params.imageFile;
+    var path_file = './uploads/users/'+ image_file;
+    fs.exists(path_file, function(exists){
+        if(exists){
+            res.sendFile(path.resolve(path_file));
+        } else {
+          res.status(200).send({message:  'No existe la imagen'});
+        }
+
+    });
+
+}
+
 module.exports = {
     pruebas,
     saveUser,
     loginUser,
     updateUser,
-    uploadImage
+    uploadImage,
+    getImageFile
 };
