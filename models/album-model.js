@@ -11,4 +11,4 @@ var AlbumSchema = Schema ({
 {
   collection : 'album'
 });
-module.exports = mongoose.model('Album,AlbumSchema');
+module.exports = mongoose.model('Album',AlbumSchema);

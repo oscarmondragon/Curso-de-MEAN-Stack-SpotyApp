@@ -5,8 +5,8 @@ var SongSchema = Schema ({
     number: String,
     name: String,
     duration: String,
-    file; String,
-    album: {tipe: Schema.ObjectId, ref:'Album'}
+    file: String,
+    album: {type: Schema.ObjectId, ref:'Album'}
 },
 {
   collection : 'song'
