@@ -74,8 +74,86 @@ function getArtists(req, res) {
         }
     });
 }
+
+function updateArtist(req, res) {
+    var artistId = req.params.id;
+    var update = req.body;
+    Artist.findByIdAndUpdate(artistId, update, (err, artistUpdated) => {
+        if (err) {
+            res.status(500).send({
+                message: 'Error al guardar el artista'
+            });
+        } else {
+            if (!artistUpdated) {
+                res.status(4040).send({
+                    message: 'No se ha actualizado el artista'
+                });
+            } else {
+                return res.status(200).send({
+                    artist: artistUpdated
+                });
+            }
+        }
+    });
+}
+
+function deleteArtist(req, res) {
+    var artistId = req.params.id;
+    Artist.findByIdAndRemove(artistId, (err, artistRemoved) => {
+        if (err) {
+            res.status(500).send({
+                message: 'Error al eliminar el artista'
+            });
+        } else {
+            if (!artistRemoved) {
+                res.status(404).send({
+                    message: 'El artista no ha sido eliminado'
+                });
+            } else {
+                Album.find({
+                    artist: artistRemoved._id
+                }).remove((err, albumRemoved) => {
+                    if (err) {
+                        res.status(500).send({
+                            message: 'Error al eliminar los albums del artista'
+                        });
+                    } else {
+                        if (!artistRemoved) {
+                            res.status(404).send({
+                                message: 'Los albums no han sido eliminados'
+                            });
+                        } else {
+                            Song.find({
+                                album: albumRemoved._id
+                            }).remove((err, songRemoved) => {
+                                if (err) {
+                                    res.status(500).send({
+                                        message: 'Error al eliminar las canciones del album'
+                                    });
+                                } else {
+                                    if (!songRemoved) {
+                                        res.status(404).send({
+                                            message: 'La cancion no ha sido eliminada'
+                                        });
+                                    } else {
+                                        res.status(200).send({
+                                            message: 'El artista ha sido eliminado',
+                                            artist: artistRemoved
+                                        });
+                                    }
+                                }
+                            });
+                        }
+                    }
+                });
+            }
+        }
+    });
+}
 module.exports = {
     getArtist,
     saveArtist,
-    getArtists
+    getArtists,
+    updateArtist,
+    deleteArtist
 }
