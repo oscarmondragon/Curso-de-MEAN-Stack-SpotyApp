@@ -150,10 +150,71 @@ function deleteArtist(req, res) {
         }
     });
 }
+
+function uploadImage(req, res) {
+    var artistId = req.params.id;
+    var file_name = "No subido...";
+    if (req.files) {
+        var file_path = req.files.image.path;
+        //variables para sacar el nombre del archivo 
+        var file_split = file_path.split('\\');
+        var file_name = file_split[2];
+        //variables para obtener la extencion del archivo
+        var ext_split = file_name.split('\.');
+        var file_ext = ext_split[1];
+        // console.log(file_path);
+        console.log(ext_split);
+        if (file_ext == 'png' || file_ext == 'jpg' || file_ext == 'JPG' || file_ext == 'gif') {
+            Artist.findByIdAndUpdate(artistId, {
+                image: file_name
+            }, (err, artistUpdated) => {
+                if (err) {
+                    res.status(500).send({
+                        message: ' Error al actualizar el usuario'
+                    });
+                } else {
+                    if (!artistUpdated) {
+                        res.status(404).send({
+                            message: ' No se ha podido actualizar el usuario'
+                        });
+                    } else {
+                        res.status(200).send({
+                            artist: artistUpdated
+                        });
+                    }
+                }
+            });
+        } else {
+            res.status(200).send({
+                message: 'Extension del archivo no valida'
+            });
+        }
+    } else {
+        res.status(200).send({
+            message: 'No has subido ninguna imagen'
+        });
+    }
+}
+
+function getImageFile(req,res){
+    var image_file  = req.params.imageFile;
+    var path_file = './uploads/artists/'+ image_file;
+    fs.exists(path_file, function(exists){
+        if(exists){
+            res.sendFile(path.resolve(path_file));
+        } else {
+          res.status(200).send({message:  'No existe la imagen'});
+        }
+
+    });
+
+}
 module.exports = {
     getArtist,
     saveArtist,
     getArtists,
     updateArtist,
-    deleteArtist
+    deleteArtist,
+    uploadImage,
+    getImageFile
 }
